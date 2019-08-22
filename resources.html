@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CHSKC Resources</title>
+  <link rel="icon" href="icon2.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+  <style>
+    body {
+      font-family: "Helvetica", "Verdana", Sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      letter-spacing: 5px;
+    }
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      background-color: #B40000;
+      color: white;
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 4px;
+    }
+    #myBtn:hover {
+      background-color: #555;
+    }
+    .button:active {
+      background-color: #8F0000;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }  
+    tr:nth-child(even) {background-color: #E8080;}
+  </style>
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
+<body>
+<!-- Navigation Bar -->
+<div class="w3-bar w3-card w3-top w3-white w3-wide">
+  <a href="http://liliumorca.github.io" class="w3-bar-item w3-button w3-left" style="color:black;">CHS <span style="color:#B40000;">K</span>orean <span style="color:#144988;">C</span>lub</a>
+  <a href="https://liliumorca.github.io/resources.html" class="w3-bar-item w3-button w3-right w3-hide-small"><i class="fas fa-folder"></i>Resources</a>
+  <a href="https://liliumorca.github.io/contacts.html" class="w3-bar-item w3-button w3-right w3-hide-small"><i class="fas fa-address-book"></i>Contacts</a>
+  <a href="https://liliumorca.github.io/activities.html" class="w3-bar-item w3-button w3-right w3-hide-small"><i class="fas fa-image"></i></i>Activities</a>
+  <a href="http://liliumorca.github.io/about.html" class="w3-bar-item w3-button w3-right w3-hide-small"><i class="far fa-question-circle"></i>About Us</a>
+  <a href="https://liliumorca.github.io/" class="w3-bar-item w3-button w3-right w3-hide-small"><i class="fas fa-home"></i>Home</a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+</div>
+<div id="sm-nav" class="w3-bar-block w3-card w3-hide w3-hide-large w3-hide-medium">
+  <a href="http://liliumorca.github.io/about.html" class="w3-bar-item w3-button"><i class="far fa-question-circle"></i>About Us</a>
+  <a href="https://liliumorca.github.io/activities.html" class="w3-bar-item w3-button"><i class="fas fa-image"></i></i>Activities</a>
+  <a href="https://liliumorca.github.io/contacts.html" class="w3-bar-item w3-button"><i class="fas fa-address-book"></i>Contacts</a>
+  <a href="https://liliumorca.github.io/resources.html" class="w3-bar-item w3-button"><i class="fas fa-folder"></i>Resources</a>
+</div>
+  
+<!-- Page content -->
+<br>
+<br>
+<br>  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="w3-container">
+  <h2 style="color:#B40000;">&nbsp;<b>Resources</b></h2>
+  <div>
+    <img src="hangul chart_1ver.2.jpg" class="w3-border w3-padding" alt="Hangul Basics"></tr>
+    <b><h4>Hangul Basics</h4></b></tr>
+  </div> 
+  <br>
+  <div>
+    <img src="hangul chart_2ver.2.jpg" class="w3-border w3-padding" alt="Hangul Intermediate"></tr>
+    <b><h4>Hangul Intermediate</h4></b></tr>
+  </div>
+  <br>
+  <div>
+    <img src="hangul chart_3ver.2.jpg" class="w3-border w3-padding" alt="Hangul Advance"></tr>
+    <b><h4>Hangul Advance</h4></b></tr>
+  </div>
+  <div>
+    <i class="fas fa-chevron-circle-up fa-3x" onclick="topFunction()" id="myBtn" title="Go to top"></i>
+  </div>
+</div>    
+</body>
+<!-- End page content -->
+<div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</div>  
+<!-- Footer -->
+<div>    
+  <footer class="w3-center w3-light-grey w3-padding-32">
+    <p>Coronado Korean Club</p>
+  </footer>
+</div>
+</body>
+</html>
